@@ -1,0 +1,15 @@
+{
+  "server": {
+    "port": "8080"
+  },
+  "database": {
+    "mysql": {
+      "url": "root:123456@tcp(127.0.0.1:3306)/test?loc=Local"
+    },
+    "redis": {
+      "addr": "127.0.0.1:6379",
+      "password": "123456",
+      "db": 0
+    }
+  }
+}
